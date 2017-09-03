@@ -1,0 +1,5 @@
+D:\MixedAssmblyLoader\MixedAssmblyLoader\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\MixedAssmblyLoader\MixedAssmblyLoader\bin\Debug\MixedAssmblyLoader.exe
+D:\MixedAssmblyLoader\MixedAssmblyLoader\bin\Debug\MixedAssmblyLoader.pdb
+D:\MixedAssmblyLoader\MixedAssmblyLoader\obj\x86\Debug\MixedAssmblyLoader.exe
+D:\MixedAssmblyLoader\MixedAssmblyLoader\obj\x86\Debug\MixedAssmblyLoader.pdb

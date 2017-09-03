@@ -1,0 +1,10 @@
+D:\MixedAssemblyLoader\MixedAssemblyLoader\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\MixedAssemblyLoader\MixedAssemblyLoader\bin\Debug\MixedAssemblyLoader.exe
+D:\MixedAssemblyLoader\MixedAssemblyLoader\bin\Debug\MixedAssemblyLoader.pdb
+D:\MixedAssemblyLoader\MixedAssemblyLoader\obj\x86\Debug\MixedAssemblyLoader.exe
+D:\MixedAssemblyLoader\MixedAssemblyLoader\obj\x86\Debug\MixedAssemblyLoader.pdb
+D:\NewProjects\NET\MixedAssemblyLoader\MixedAssemblyLoader\bin\Debug\MixedAssemblyLoader.exe
+D:\NewProjects\NET\MixedAssemblyLoader\MixedAssemblyLoader\bin\Debug\MixedAssemblyLoader.pdb
+D:\NewProjects\NET\MixedAssemblyLoader\MixedAssemblyLoader\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\NewProjects\NET\MixedAssemblyLoader\MixedAssemblyLoader\obj\x86\Debug\MixedAssemblyLoader.exe
+D:\NewProjects\NET\MixedAssemblyLoader\MixedAssemblyLoader\obj\x86\Debug\MixedAssemblyLoader.pdb
