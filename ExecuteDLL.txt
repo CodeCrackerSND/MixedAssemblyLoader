@@ -1,0 +1,45 @@
+4291746911 (0xFFCEDC5F)
+1460223774 (0x57093F1E)
+
+0:003> u clr!ExecuteDLLForAttach
+clr!ExecuteDLLForAttach:
+72ddc486 684c020000      push    24Ch
+72ddc48b b8ba0c2273      mov     eax,offset clr! ?? ::FNODOBFM::`string'+0x1bfb (73220cba)
+72ddc490 e86ebae4ff      call    clr!_EH_prolog3_GS (72c27f03)
+72ddc495 8995c4fdffff    mov     dword ptr [ebp-23Ch],edx
+72ddc49b 8bf9            mov     edi,ecx
+72ddc49d 8b4508          mov     eax,dword ptr [ebp+8]
+72ddc4a0 51              push    ecx
+72ddc4a1 57              push    edi
+
+call    clr!ExecuteEXE
+
+
+
+72ddc64d c685fcffffff01  mov     byte ptr [ebp-4],1
+72ddc654 c685fcffffff02  mov     byte ptr [ebp-4],2
+72ddc65b 8bc1            mov     eax,ecx
+72ddc65d 8985d8ffffff    mov     dword ptr [ebp-28h],eax
+72ddc663 c685fcffffff03  mov     byte ptr [ebp-4],3
+72ddc66a 57              push    edi
+72ddc66b ff7508          push    dword ptr [ebp+8]
+72ddc66e 8b95e4ffffff    mov     edx,dword ptr [ebp-1Ch]
+72ddc674 8b8ddcffffff    mov     ecx,dword ptr [ebp-24h]
+72ddc67a e807feffff      call    clr!ExecuteDLLForAttach (72ddc486)
+72ddc67f 8bf0            mov     esi,eax
+
+
+732BC64D    C685 FCFFFFFF 0>MOV BYTE PTR SS:[EBP-0x4],0x1
+732BC654    C685 FCFFFFFF 0>MOV BYTE PTR SS:[EBP-0x4],0x2
+732BC65B    8BC1            MOV EAX,ECX
+732BC65D    8985 D8FFFFFF   MOV DWORD PTR SS:[EBP-0x28],EAX
+732BC663    C685 FCFFFFFF 0>MOV BYTE PTR SS:[EBP-0x4],0x3
+732BC66A    57              PUSH EDI
+732BC66B    FF75 08         PUSH DWORD PTR SS:[EBP+0x8]
+732BC66E    8B95 E4FFFFFF   MOV EDX,DWORD PTR SS:[EBP-0x1C]
+732BC674    8B8D DCFFFFFF   MOV ECX,DWORD PTR SS:[EBP-0x24]
+732BC67A    E8 07FEFFFF     CALL 732BC486                            ; clr.732BC486
+732BC67F    8BF0            MOV ESI,EAX
+0x72DDC5A7
+
+0x72DDC74F
